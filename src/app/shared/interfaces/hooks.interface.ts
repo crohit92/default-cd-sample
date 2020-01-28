@@ -7,7 +7,7 @@ import {
   AfterViewInit,
   AfterViewChecked
 } from "@angular/core";
-export interface Hooks
+export interface IHooks
   extends OnInit,
     OnChanges,
     DoCheck,

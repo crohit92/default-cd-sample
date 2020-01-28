@@ -6,4 +6,10 @@ export class LoggerService {
   public log(msg: string) {
     console.log(msg);
   }
+  public warn(msg: string) {
+    console.warn(msg);
+  }
+  public error(msg: string) {
+    console.error(msg);
+  }
 }
